@@ -1,0 +1,73 @@
+body{
+	background:url(img/bg3.webp);
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-size:cover;
+	text-align: center;
+	background-attachment: fixed;
+	margin:auto auto;
+	width:auto;
+	}
+
+	h1{
+		padding-top: 5%;
+		text-align:center;
+		margin:20px;
+		border-bottom: grey;
+		border-bottom: grey;
+		font-family:楷体;
+		font-size:48px;
+	}
+
+	h2{
+		text-align:center;
+	}
+	
+	#daohang{
+		text-align:center;
+		font-family:黑体;
+		font-size:16px;
+	}
+
+	#tdaohang{
+		font-size:14px;
+	}
+
+	#small_daohang{
+		text-align:center;
+		font-family:宋体;
+		font-size:16px;
+	}
+
+	.poem{
+		font-family:楷体;
+		font-size:16pt;
+		text-align:center;
+		line-height: 1.5em;
+	}
+
+	#bread{
+		line-height:2px ;
+		font-size:8px;
+		font-family: 楷体;
+		text-align: left;
+	}
+
+#box{
+	width:60%;
+	margin:0 auto;
+}
+
+#copyright{
+	font-family: 宋体;
+	font-style: oblique;
+	font-size: 16px;
+}
+
+#img{
+	width:300px;
+}
+
+#index{
+	text-align: left;
+}
