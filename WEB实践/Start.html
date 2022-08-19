@@ -5,10 +5,17 @@
         <link href="./css/main.css" rel="stylesheet" type="text/css"/>
         <script src="./js/jquery-1.11.1.min.js"></script>
         <script src="js/Main.js"></script>
-        <style> body{background-image: url(./images/test.png);}</style>
+        <style>
+           body{background: url(./images/test.png) no-repeat;
+                background-size:100% 100%;;
+            }
+           #title {
+              padding-top: 30px;
+            }
+        </style>
     </head>
     <body>
-        <div><h1 align="center"><strong>Game Name</strong></h1></div>
+        <div><h1 align="center"><img id="title" src="./images/title.png" width="450px" height="300px"></h1></div>
         <div align="center"><button class="firstbt" type="button" onclick="Newgame()">开始游戏</button></div>
         <div align="center"><button class="normbt" type="button" onclick="Loadgame()">继续游戏</button></div>
         <div align="center"><button class="normbt" type="button" onclick="ToAchievements()">成就</button></div>
