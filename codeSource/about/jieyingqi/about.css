@@ -1,3 +1,30 @@
-ul{
-    list-style-type:none,
+*{
+    user-select:none;
+    background-color: #e3f0f6;
+}
+.topLine ul{
+    white-space: nowrap;
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+}
+.topLine li{
+    display: inline-block;
+    width: 25%;
+}
+.topLine li a{
+    color:#66ccff;
+    font-family: "STXinwei";
+    font-size: 20px;
+    transition: width 2s, background-color 2s, transform 2s;
+}
+.topLine li a:hover{
+    color:#66ccff;
+    font-family: "STXinwei";
+    font-size: 25px;
+}
+.topPicture{
+    width: 100%;
+    shape-image-threshold: inherit;
+
 }
