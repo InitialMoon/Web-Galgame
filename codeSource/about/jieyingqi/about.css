@@ -6,14 +6,14 @@
     size:20%;
 }
 .topLine ul{
+    display: flex;
     white-space: nowrap;
     text-align: center;
     overflow: hidden;
     height: 10%;
 }
 .topLine li{
-    display: inline-block;
-    height: 100%;
+    list-style: none;
     width: 25%;
 }
 .topLine li a{
